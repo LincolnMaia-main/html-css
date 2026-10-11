@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-            /* background-size: auto contain px % cover; */
+            background-attachment: fixed; */
+
+            /* Shorthand - background
+               color > image > position > repeat > [size]
+               > attachment
+               */
+
+               background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed;
+               background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +36,14 @@
 <body>
     <main>
         <h1>Teste de Imagen de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, libero! Assumenda alias deserunt quis soluta ad! Beatae illo quidem corrupti, dignissimos soluta commodi asperiores excepturi obcaecati dolorum ad voluptas saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quae. Maxime vel culpa, consequuntur modi eum sapiente tempore fugit cumque voluptatem dolorum recusandae, et ea minus, aspernatur natus molestias voluptate! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptas consequatur officia accusamus rerum eius velit, ipsam reiciendis ducimus soluta quo ipsa dolores iusto corrupti adipisci doloribus eveniet nisi doloremque!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, libero! Assumenda alias deserunt quis soluta ad! Beatae illo quidem corrupti, dignissimos soluta commodi asperiores excepturi obcaecati dolorum ad voluptas saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quae. Maxime vel culpa, consequuntur modi eum sapiente tempore fugit cumque voluptatem dolorum recusandae, et ea minus, aspernatur natus molestias voluptate! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptas consequatur officia accusamus rerum eius velit, ipsam reiciendis ducimus soluta quo ipsa dolores iusto corrupti adipisci doloribus eveniet nisi doloremque!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, libero! Assumenda alias deserunt quis soluta ad! Beatae illo quidem corrupti, dignissimos soluta commodi asperiores excepturi obcaecati dolorum ad voluptas saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quae. Maxime vel culpa, consequuntur modi eum sapiente tempore fugit cumque voluptatem dolorum recusandae, et ea minus, aspernatur natus molestias voluptate! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptas consequatur officia accusamus rerum eius velit, ipsam reiciendis ducimus soluta quo ipsa dolores iusto corrupti adipisci doloribus eveniet nisi doloremque!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, libero! Assumenda alias deserunt quis soluta ad! Beatae illo quidem corrupti, dignissimos soluta commodi asperiores excepturi obcaecati dolorum ad voluptas saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quae. Maxime vel culpa, consequuntur modi eum sapiente tempore fugit cumque voluptatem dolorum recusandae, et ea minus, aspernatur natus molestias voluptate! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptas consequatur officia accusamus rerum eius velit, ipsam reiciendis ducimus soluta quo ipsa dolores iusto corrupti adipisci doloribus eveniet nisi doloremque!
+        </p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, libero! Assumenda alias deserunt quis soluta ad! Beatae illo quidem corrupti, dignissimos soluta commodi asperiores excepturi obcaecati dolorum ad voluptas saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quae. Maxime vel culpa, consequuntur modi eum sapiente tempore fugit cumque voluptatem dolorum recusandae, et ea minus, aspernatur natus molestias voluptate! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptas consequatur officia accusamus rerum eius velit, ipsam reiciendis ducimus soluta quo ipsa dolores iusto corrupti adipisci doloribus eveniet nisi doloremque!
         </p>
     </main>
